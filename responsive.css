@@ -1,0 +1,470 @@
+@media all and (max-width: 1536px) {
+
+  .ph-link,
+  .topsection-flex {
+    display: none;
+  }
+
+  .slider-wrapper .slider-item .slide-content,
+  .slider-controls .slider-pagination {
+    width: 85%;
+  }
+
+  .grace-header .grace-text {
+    font-size: 25px;
+  }
+
+  .grace-item .grace-desc h3 {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 1180px) {
+
+  /* .grace-header .grace-text {
+    font-size: 25px;
+  }
+
+  .grace-item .grace-desc h3 {
+    font-size: 14px;
+  } */
+
+  .section .contact-container {
+    position: relative;
+    min-width: 900px;
+    min-height: 550px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+
+  .slider-wrapper .slider-item .slide-content,
+  .slider-controls .slider-pagination {
+    width: 100%;
+  }
+
+  .slider-wrapper .slider-item .slide-content>* {
+    max-width: 66%;
+  }
+
+  .slider-navigations button {
+    top: unset;
+    bottom: -15px;
+    background: none;
+  }
+
+  .slider-navigations button:hover {
+    background: none;
+  }
+}
+
+
+@media all and (max-width: 968px) {
+  nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+
+  nav .logo {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .show+a,
+  ul {
+    display: none;
+  }
+
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul li a:hover {
+    box-shadow: none;
+  }
+
+  .show {
+    display: block;
+    color: var(--white-color);
+    font-size: 18px;
+    padding: 0 12px;
+    line-height: 70px;
+    cursor: pointer;
+  }
+
+  .show:hover {
+    color: var(--yellow-color);
+  }
+
+  .icon {
+    display: block;
+    color: var(--white-color);
+    position: absolute;
+    top: 0;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  nav ul ul {
+    top: 70px;
+    border-top: 0px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav ul ul a {
+    padding-left: 40px;
+  }
+
+  nav ul ul ul a {
+    padding-left: 80px;
+  }
+
+  nav ul ul ul li {
+    position: static;
+  }
+
+  [id^=btn]:checked+ul {
+    display: block;
+  }
+
+  nav ul ul li {
+    border-bottom: 0px;
+  }
+
+  span.cancel::before {
+    content: '\f00d';
+  }
+
+  .slider-pagination .slider-tab {
+    display: none;
+  }
+
+  section {
+    padding: 100px 4% 30px;
+  }
+
+  section.vision-statement,
+  .vision-title {
+    font-size: 20px;
+  }
+
+  section.vision-statement,
+  .vision-text {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+
+  section {
+    padding: 100px 4% 25px;
+  }
+
+  section .bhistory-title {
+    font-size: 18px;
+  }
+
+  section .bhistory-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .services-contents .services-box {
+    flex-basis: calc(calc(100% / 2) - 2%);
+  }
+
+  .services-contents .services-box:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .courses .courses-contents .course-card {
+    flex-basis: calc(calc(100% / 2) - 1.2%);
+  }
+
+  .courses .section-header {
+    flex-direction: column;
+  }
+
+  .courses .section-header .courses-btn {
+    position: relative;
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+
+  .categories-contents .category-item {
+    flex-basis: calc(calc(100% / 2) - 1%);
+    margin-bottom: 15px;
+  }
+
+  .footer-contents .footer-col {
+    flex-basis: calc(calc(100% / 2) - 20px);
+  }
+
+  /* nursery responsive */
+
+  .parallax-window {
+    z-index: 20;
+    min-height: 400px;
+    background: transparent;
+  }
+
+  .parallax-wc {
+    padding: 25% 0 0 0;
+  }
+
+  .parallax-wc .parallax-window-text {
+    font-size: 25px;
+  }
+
+  .parallax-wc .parallax-window-bg-text {
+    font-size: 22px;
+  }
+
+  section {
+    width: 100%;
+    padding: 40px 40px 0;
+  }
+
+  section .nursery-gd-bx {
+    display: block;
+  }
+
+  section .nursery-container-text .nursery-text,
+  .nursery-name {
+    margin: 2rem 0 2rem 0;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1rem;
+  }
+
+  section .nursery-gd-img img {
+    width: 18rem;
+    height: 25rem;
+  }
+
+  section .nursery-text-bx {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  section .parallaxh2 {
+    font-size: 1.2rem;
+  }
+
+  /* contact responsive */
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    margin: 30px 50px;
+  }
+
+  .contact-form h2 {
+    font-size: 30px;
+  }
+
+  .contact-form .text-box {
+    width: 100%;
+  }
+
+}
+
+
+
+@media all and (max-width: 768px) {
+
+  .slider-wrapper .slider-item .slide-content>* {
+    max-width: 100%;
+  }
+
+  .grace-header .grace-text {
+    font-size: 20px;
+  }
+
+  .grace-item .grace-desc h3 {
+    font-size: 16px;
+  }
+
+  section.vision-statement,
+  .vision-title {
+    font-size: 18px;
+  }
+
+  section.vision-statement,
+  .vision-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 25px;
+  }
+
+  .parallax-wc .parallax-window-text {
+    font-size: 28px;
+  }
+
+  section .nursery-container-text .nursery-text,
+  .nursery-name {
+    margin: 2rem 0 2rem 0;
+    line-height: 2;
+    font-size: .95rem;
+  }
+
+  section .nursery-text-bx {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* contact responsive */
+  /* .section .contact-container {
+    position: relative;
+    min-width: 550px;
+    min-height: 550px;
+  } */
+
+  footer .footer-container .sec p {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width: 668px) {
+
+  .grace-header .grace-text {
+    font-size: 18px;
+  }
+
+  .grace-item .grace-desc h3 {
+    font-size: 14px;
+  }
+
+  section.vision-statement,
+  .vision-title {
+    font-size: 16px;
+  }
+
+  section.vision-statement,
+  .vision-text {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  section .bhistory-title {
+    font-size: 18px;
+  }
+
+  section .bhistory-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .parallax-wc {
+    padding: 35% 0 0 0;
+  }
+
+  .services-contents .services-box {
+    flex-basis: 100%;
+  }
+
+  .courses .courses-contents .course-card {
+    flex-basis: 100%;
+  }
+}
+
+@media all and (max-width: 568px) {
+
+  .grace-header .grace-text {
+    font-size: 25px;
+  }
+
+  .grace-item .grace-desc h3 {
+    font-size: 16px;
+  }
+
+  /* section.vision-statement,
+  .vision-title {
+    font-size: 18px;
+  }
+
+  section.vision-statement,
+  .vision-text {
+    font-size: 14px;
+    margin-top: 25px;
+  } */
+
+
+  .parallax-wc {
+    padding: 42% 0 0 0;
+  }
+
+  .parallax-wc .parallax-window-text {
+    font-size: 28px;
+  }
+
+  .categories-contents .category-item {
+    flex-basis: 100%;
+  }
+
+  .footer-contents .footer-col {
+    flex-basis: 100%;
+  }
+}
+
+@media all and (max-width: 468px) {
+
+  .contact-info i {
+    font-size: 16px;
+  }
+
+  .contact-info div {
+    font-size: 16px;
+  }
+
+
+  .category-item .category-desc-img {
+    /* border-radius: 100%; */
+    width: 100%;
+    height: 58vh;
+  }
+
+  section .bhistory-title {
+    font-size: 14px;
+  }
+
+  section .bhistory-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .parallax-wc {
+    padding: 52% 0 0 0;
+  }
+
+  .parallax-wc .parallax-window-text {
+    font-size: 25px;
+  }
+
+  .parallax-wc .parallax-window-text {
+    font-size: 25px;
+  }
+
+}
+
+@media all and (max-width: 370px) {
+
+  .contact-info div {
+    font-size: 10px;
+  }
+
+  /* nav .navbar .nav-links {
+    max-width: 100%;
+  } */
+}

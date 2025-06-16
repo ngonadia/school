@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax-window {
+  z-index: 20;
+  min-height: 600px;
+  background: transparent;
+}
+
+.parallax-wc {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 15% 0 0 0;
+}
+
+.parallax-wc .parallax-window-text {
+  font-size: 38px;
+  color: var(--white-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.parallax-wc .parallax-window-bg-text {
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+section {
+  width: 100%;
+  position: relative;
+  padding: 100px 12% 30px;
+}
+
+section.vision-container,
+.vision-statement {
+  margin-top: 40px;
+}
+
+section.vision-statement,
+.vision-title {
+  font-size: 25px;
+}
+
+section.vision-statement,
+.vision-text {
+  font-size: 25px;
+  margin-top: 25px;
+}
